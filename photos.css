@@ -1,0 +1,13 @@
+img         {border-radius:0%;
+             width:30%;
+             height:40%;
+             margin-top:0.25%;
+             margin-left:33%;
+             filter:grayscale(0%);}
+
+img:hover   {-webkit-filter: invert(100%); /* Safari */
+             filter: invert(100%);
+             transition:0s;}
+
+li          {list-style-type: none;
+             padding: 2em;}

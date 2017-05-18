@@ -1,0 +1,97 @@
+h1          {font-family:"Helvetica Neue", Helvetica, Apercu, "Futura Std", sans-serif;
+             font-weight: 100;
+             color:#1cbca3;
+             text-align:center;
+             font-size:3.5em;
+             letter-spacing:0.1em;}
+
+h1:hover    {font-style:italic;}
+
+
+h2          {font-family:"Helvetica Neue", Helvetica, Apercu, "Futura Std", sans-serif;
+             font-weight: 100;
+             color:gray;
+             text-align:center;
+             font-size:2em;
+             letter-spacing:0.1em;}
+
+p           {font-family:"Helvetica Neue", Helvetica, Apercu, "Futura Std", sans-serif;
+             font-weight: 100;
+             color:gray;
+             text-align:center;
+             font-size:1.5em;
+             letter-spacing:0.1em;}
+
+h3          {font-family:"Helvetica Neue", Helvetica, Apercu, "Futura Std", sans-serif;
+             font-size:1.5em;
+             font-weight: 100;
+             color:gray;
+             margin-right:4em;}
+
+h3:hover    {color:#1cbca3;}
+
+h4          {font-family:"Helvetica Neue", Helvetica, Apercu, "Futura Std", sans-serif;
+             font-size:1.5em;
+             font-weight: 100;
+             color:#1cbca3;
+             margin-right:4em;
+             font-style:italic;}
+
+h4:hover    {color:#1cbca3;}
+
+a           {text-decoration: none;
+             text-align:right;}
+
+img         {border-radius:50%;
+             width:35%;
+             height:50%;
+             margin-top:-11.5%;
+             margin-left:7%;
+             -webkit-filter: grayscale(100%);
+             filter: grayscale(100%);}
+
+img:hover   {-webkit-filter: grayscale(0%);
+             filter: grayscale(0%);}
+
+.img-message        {margin-left:10%;
+                     width:30%;}
+
+
+iframe      {margin-left:27%;}
+
+
+/*SCROLL BAR*/
+body {
+margin-bottom: 3%;
+}
+
+/* Box styles */
+.myBox {
+border: none;
+padding: 5px;
+width: 200px;
+height: 200px;
+overflow: scroll;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 8px;
+height: 8px;
+}
+
+::-webkit-scrollbar-track {
+border: 1px solid purple;
+}
+
+::-webkit-scrollbar-thumb {
+background: purple;  
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #1cbca3;  
+}
+/*SCROLL BAR ABOVE*/
+
+    
+    
